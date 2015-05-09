@@ -1,0 +1,34 @@
+#######################################
+# Syntax Coloring Map For ThumbJoystick
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+ThumbJoystick	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+setZeros	KEYWORD2
+setZeros	KEYWORD2
+getXAxis	KEYWORD2
+getYAxis	KEYWORD2
+getXAxisMaped	KEYWORD2
+getYAxisMaped	KEYWORD2
+updateDigital	KEYWORD2
+readDigital	KEYWORD2	
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+THUMBJOYSTICK_NULL	LITERAL1
+THUMBJOYSTICK_SEL	LITERAL1
+THUMBJOYSTICK_LEFT	LITERAL1
+THUMBJOYSTICK_RIGHT	LITERAL1
+THUMBJOYSTICK_UP	LITERAL1
+THUMBJOYSTICK_DOWN	LITERAL1
+
