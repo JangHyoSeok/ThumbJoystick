@@ -4,8 +4,17 @@
   Released under the GPL license
 */
 
-#include "WProgram.h"
+
+
+
 #include "ThumbJoystick.h"
+
+#if ARDUINO >= 100
+ #include "Arduino.h"
+#else
+ #include "WProgram.h"
+#endif
+
 
 ThumbJoystick::ThumbJoystick(int selPin, byte xAxisPin, byte yAxisPin, boolean xInvert, boolean yInvert){
 
